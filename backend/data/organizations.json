@@ -1,0 +1,16 @@
+[
+    {
+        "id": "1f2006e2-6907-4f63-84c3-baf5442490b9",
+        "name": "TestOrg",
+        "email": "test@org.com",
+        "modules": [
+            "Mod1"
+        ],
+        "package": "Premium",
+        "duration": "1 year",
+        "limit": 10,
+        "created_at": "2026-01-26T16:40:07.820749",
+        "licenses_file_path": "D:\\ai_db_insights_backoffice\\backend\\data\\licenses\\TestOrg_1f2006e2-6907-4f63-84c3-baf5442490b9_licenses.txt",
+        "generated_licenses_count": 5
+    }
+]
