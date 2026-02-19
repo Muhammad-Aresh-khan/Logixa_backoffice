@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/auth/:path*",
+      "destination": "http://34.170.38.36:5000/auth/:path*"
+    },
+    {
+      "source": "/organization/:path*",
+      "destination": "http://34.170.38.36:5000/organization/:path*"
+    },
+    {
+      "source": "/license/:path*",
+      "destination": "http://34.170.38.36:5000/license/:path*"
+    },
+    {
+      "source": "/stats/:path*",
+      "destination": "http://34.170.38.36:5000/stats/:path*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

@@ -19,19 +19,19 @@ export default defineConfig(({ mode }) => {
       port: port,
       proxy: {
         '/auth': {
-          target: `http://localhost:${backendPort}`,
+          target: `http://34.170.38.36:${backendPort}`,
           changeOrigin: true,
         },
         '/organization': {
-          target: `http://localhost:${backendPort}`,
+          target: `http://34.170.38.36:${backendPort}`,
           changeOrigin: true,
         },
         '/license': {
-          target: `http://localhost:${backendPort}`,
+          target: `http://34.170.38.36:${backendPort}`,
           changeOrigin: true,
         },
         '/stats': {
-          target: `http://localhost:${backendPort}`,
+          target: `http://34.170.38.36:${backendPort}`,
           changeOrigin: true,
         },
       },
