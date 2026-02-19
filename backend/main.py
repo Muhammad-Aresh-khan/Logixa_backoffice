@@ -24,7 +24,7 @@ from stats import (
 )
 
 # ===== FastAPI App Setup =====
-app = FastAPI(title="Logix",description="License Management",version="1.0.0")
+app = FastAPI(title="Logixa Admin",description="License Management",version="1.0.0")
 
 # ===== CORS Setup =====
 app.add_middleware(
